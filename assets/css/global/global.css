@@ -1,0 +1,51 @@
+@import "fonts.css";
+@import "normalize.css";
+@import "variable.css";
+@import "elements.css";
+
+body{
+    font-size: 20px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    color: darkblue;
+    text-align: center;
+}
+img{
+    
+    display: block;
+    margin-top: 18PX;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.img:hover{
+    color: darkblue;
+    text-align: center;
+    opacity: 0.5;
+}
+
+nav{
+    top: 0;
+    position: static;
+    background-color: crimson;
+    text-align: center;
+    padding: 2px;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
